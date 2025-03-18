@@ -8,3 +8,4 @@ This test involves 3 elements:
 * duplicated arbitrary providers in different domains (there is no duration difference without this)
 * these providers uses `combine()` kotlin DSL with a single arbitrary (there is no duration difference with `Double.any().map{}` instead)
 * usage of `anyForSubtypeOf<>()` (the duration difference is smaller with `Arbitraries.oneOf(anyForType<SubClass1>().enableRecursion(), …)`)
+
