@@ -1,7 +1,6 @@
-package org.example
+package org.example.kotlin
 
 import net.jqwik.api.Arbitrary
-import net.jqwik.api.Combinators
 import net.jqwik.api.ForAll
 import net.jqwik.api.Property
 import net.jqwik.api.Provide

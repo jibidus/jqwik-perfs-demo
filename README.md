@@ -1,6 +1,6 @@
 Demo project which illustrates a performance degradation in jqwik 1.9.0 (same with 1.9.1 and 1.9.2).
 
-See [this test](src/test/java/org/example/Test.kt).
+See [this test](src/test/java/org/example/kotlin/Test.kt) (alternative in Java [here](src/test/java/org/example/java/Test.java)).
 
 In my laptop, this test last **1mn47s with jqwik 1.9.0**, but **3s with jqwik 1.8.5**.
 
